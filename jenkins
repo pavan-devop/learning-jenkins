@@ -1,11 +1,11 @@
-pipeline{
+pipeline {
   agent any
   
-  stages{
-    stage('Checkout'){
-      steps{
-        echo 'I am running the jenkins script from the 'jenkins' file on my github repo'
-      }
+  stages {
+    stage('Checkout') {
+      steps {
+        echo 'I am running the jenkins script from the jenkins file on my github repo'
+      
     }
   }
 } 
