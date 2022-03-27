@@ -4,8 +4,8 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        echo 'I am running the jenkins script from the jenkins file on my github repo'
-      
+        echo 'I am running the jenkins script from the jenkins file on my github repo'  
+      }
     }
   }
-} 
+}
